@@ -1,6 +1,6 @@
 # QQ 机器人 · AstrBot + SnowLuma
 
-QQ 号：**3695820197**（昵称：空晞）
+QQ 号：****（昵称：**）
 部署位置：`D:\AI\QQBot`
 部署方式：全部为用户级/绿色安装，**不需要管理员权限**，不依赖 Docker。
 
@@ -136,7 +136,7 @@ SnowLuma 密码忘了：停服务 → 删 `snowluma\config\webui.json` → 启�
 人格**不在** `cmd_config.json` 里，而在 SQLite：`astrbot\data\data_v4.db` 的 `personas` 表，
 `persona_id = default` 那一行。`agent_runner.config.persona.persona_id` 指向它。
 
-- 当前人格：空晞（911 字符）+ 8 条 few-shot 开场对话
+- 当前人格：机器人的QQ号（911 字符）+ 8 条 few-shot 开场对话
 - 修改方式一（推荐）：AstrBot 面板 →「人格」→ 编辑 default → 保存（改完重启 AstrBot 生效）
 - 修改方式二：停 AstrBot → 改数据库 → 启动；每次改动前备份 `data_v4.db`
 - 备份文件：`astrbot\data\data_v4.db.bak-YYYYMMDD-HHMMSS`
